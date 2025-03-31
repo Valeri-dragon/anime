@@ -1,4 +1,5 @@
-const slider=()=>{
+const slider = () => {
+  //подключение библиотеки на странице через cdn и инициализация слайдера на главной
   const swiper = new Swiper(".swiper", {
     speed: 400,
     effect: "fade",

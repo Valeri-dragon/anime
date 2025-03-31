@@ -1,4 +1,5 @@
-const scrollTop=()=>{
+const scrollTop = () => {
+  //слушаем на всём документ клик по кнопке "Вверх" и поднимаем пользователя к началу страницы
   document.addEventListener("click", (e) => {
     if (
       e.target == document.querySelector("#scrollToTopButton") ||

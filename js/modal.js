@@ -1,6 +1,7 @@
-const modal=()=>{
+const modal = () => {
   const modal = document.querySelector(".search-model");
 
+  //открытие модального окна с поиском
   document.addEventListener("click", (e) => {
     e.target.classList.contains("icon_search") &&
       (modal.style.display = "block");
